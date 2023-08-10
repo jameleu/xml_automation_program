@@ -7,7 +7,7 @@ This is a description highlighting the skills used for one of the programs I wro
 # Highlights of techniques used:
 * stack for delimiter tracking and related algorithms for adding/removing delimiters
 * optimized regexp in Python to replace, delete, and add numerous characters with lookahead/behind, capturing groups, boolean operator statements, greedy and adaptive and non-greedy algorithms with respective operators
-* adaptive error handling and file management in Python
+* adaptive error handling and object-oriented programming file management in Python
 * Intelligent iterative design, such as replacing same found elements multiple times until the string remains the same after a re.sub
 * deletion and insertion with regexp across multiple lines that are kept track of with varying pointers
 * error logging for unbalanced tags, brackets, quotations without false positives due to nesting
