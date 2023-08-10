@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE dummy SYSTEM "dummy.dtd">
+<dummy>
+    <dummy_inner> 
+        <text> dummy: %d </text>
+        <int> 1 </int>
+    </dummy_inner>
+</dummy>

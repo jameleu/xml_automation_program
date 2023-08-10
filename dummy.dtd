@@ -1,0 +1,20 @@
+<!ELEMENT dummy
+   (dummy_inner+)>
+
+<!ELEMENT dummy_inner
+   (text,
+    int)>
+
+<!ELEMENT text
+    ( format ) >
+
+<!ELEMENT int
+    ( format ) >
+
+<!ATTLIST text
+    size ( 4 | 8 ) #REQUIRED
+    format ( formatted | not_formatted ) "not_formatted" >
+
+<!ATTLIST integer
+    size ( 1 | 2 | 4 | 8 | 16 ) #REQUIRED
+    bagging ( bagged | no_bag ) "no_bag" >
